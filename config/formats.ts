@@ -3318,9 +3318,30 @@ export const Formats: FormatList = [
 	// Past Gens OU
 	///////////////////////////////////////////////////////////////////
 
+	
+	{
+		section: "Custom Mod",
+		column: 4,
+	},
+	
+	{
+        name: "[Gen 8] Bobolief Fakemon",
+        desc: `<b>Bobolief Fakemon</b>: This is your mod!`,
+        mod: 'bobolieffakemon',
+        ruleset: ['Standard NatDex', 'Dynamax Clause', 'Sleep Clause Mod', 'Species Clause', 'Moody Clause', 'Evasion Moves Clause', 'Swagger Clause', 'Baton Pass Clause', 'OHKO Clause', 'Subscribe For More Content'],
+        unbanlist: [
+             'Breroot',
+			],
+            
+		onSwitchIn(pokemon) {
+            this.add('-start', pokemon, 'typechange', pokemon.species.types.join('/'), '[silent]');
+        },    
+    },
+	
+	
 	{
 		section: "Past Gens OU",
-		column: 4,
+		column: 5,
 	},
 	{
 		name: "[Gen 7] OU",
