@@ -3326,8 +3326,8 @@ export const Formats: FormatList = [
 	
 	{
         name: "[Gen 8] leif",
-        desc: `<b>leif</b>: This is your mod!`,
-        mod: 'leif',
+        desc: `<b>bobolieffakemon</b>: This is your mod!`,
+        mod: 'bobolieffakemon',
         ruleset: ['Standard NatDex', 'Dynamax Clause', 'Sleep Clause Mod', 'Species Clause', 'Moody Clause', 'Evasion Moves Clause', 'Swagger Clause', 'Baton Pass Clause', 'OHKO Clause', 'Subscribe For More Content'],
         unbanlist: [
              'Breroot',
