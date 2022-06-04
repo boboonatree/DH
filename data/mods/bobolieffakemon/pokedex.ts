@@ -11,7 +11,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   		color: "Brown",
 //  		prevo: "Raizmare",
   		evoLevel: 32,
-  		eggGroups: ["Field", "Grass"],
+  		eggGroups: [""],
   	},
 		furnostrich: {
 		  num: 0,
