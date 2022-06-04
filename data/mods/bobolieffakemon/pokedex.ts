@@ -13,7 +13,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   		evoLevel: 32,
   		eggGroups: ["Field", "Grass"],
   	},
-		Furnostrich: {
+		furnostrich: {
 		  num: 0,
   		name: "Furnostrich",
   		types: ["Fire", "Steel"],
