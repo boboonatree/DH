@@ -1,6 +1,6 @@
 export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   	breroot: {
-		  num: -100,
+		  num:  0,
   		name: "Breroot",
   		types: ["Grass", "Ground"],
   		genderRatio: {M: 0.5, F: 0.5},
@@ -9,8 +9,22 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   		heightm: 1.8,
   		weightkg: 900,
   		color: "Brown",
-//  		prevo: "Crecebayo",
+//  		prevo: "Raizmare",
   		evoLevel: 32,
   		eggGroups: ["Field", "Grass"],
   	},
+		Furnostrich: {
+		  num: 0,
+  		name: "Furnostrich",
+  		types: ["Fire", "Steel"],
+  		genderRatio: {M: 0.5, F: 0.5},
+  		baseStats: {hp: 80, atk: 90, def: 86, spa: 104, spd: 60, spe: 100},
+  		abilities: {0: "Steam Engine", 1: "Tangled Feet", H: "Flame Body"},
+  		heightm: 2.1,
+  		weightkg: 145,
+  		color: "Grey",
+//  		prevo: "Flit",
+  		evoLevel: 32,
+  		eggGroups: ["Field"],
+	},			
 };
