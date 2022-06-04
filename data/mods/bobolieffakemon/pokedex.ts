@@ -111,4 +111,18 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   		evoLevel: 32,
   		eggGroups: [""],
 	},			
+	dripig: {
+		  num: 0,
+  		name: "Dripig",
+  		types: ["Water"],
+  		genderRatio: {M: 0.5, F: 0.5},
+  		baseStats: {hp: 70, atk: 70, def: 100, spa: 70, spd: 110, spe: 70},
+  		abilities: {0: "Water Absorb", 1: "Misty Surge", H: "Water Bubble"},
+  		heightm: .5,
+  		weightkg: 23,
+  		color: "",
+//  		prevo: "",
+  		evoLevel: 32,
+  		eggGroups: [""],
+	},			
 };
