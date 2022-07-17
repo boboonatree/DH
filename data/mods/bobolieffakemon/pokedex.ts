@@ -476,4 +476,18 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   		evoLevel: 32,
   		eggGroups: [""],
 	},
+	wooliba: {
+		  num: 0,
+  		name: "Wooliba",
+  		types: ["Normal", "Flying"],
+  		genderRatio: {M:0.5, F:0.5},
+  		baseStats: {hp: 60, atk: 74, def: 57, spa: 100, spd: 58, spe: 101},
+  		abilities: {0: "", 1: "Symbiosis", H: "Fluffy"},
+  		heightm: 0.5,
+  		weightkg: 11,
+  		color: "",
+//  		prevo: "",
+  		evoLevel: 32,
+  		eggGroups: [""],
+	},
 };
