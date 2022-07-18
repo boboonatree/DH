@@ -490,4 +490,18 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   		evoLevel: 32,
   		eggGroups: [""],
 	},
+	olfacrid: {
+		  num: 0,
+  		name: "Olfacrid",
+  		types: ["Dark"],
+  		genderRatio: {M:0.5, F:0.5},
+  		baseStats: {hp: 65, atk: 70, def: 90, spa: 90, spd: 105, spe: 90},
+  		abilities: {0: "Natural Cure", 1: "Toxic Boost", H: "Curious Medicine"},
+  		heightm: 1.6,
+  		weightkg: 45,
+  		color: "",
+//  		prevo: "",
+  		evoLevel: 32,
+  		eggGroups: [""],
+	},
 };
