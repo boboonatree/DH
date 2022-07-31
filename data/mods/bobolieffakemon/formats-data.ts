@@ -1,6 +1,6 @@
 export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	breroot: {
-		tier: "Bobolief",
-		doublesTier: "Bobolief",
+		tier: "leif",
+		doublesTier: "leif",
 	},
 };
