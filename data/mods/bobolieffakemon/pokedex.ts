@@ -742,4 +742,18 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   		evoLevel: 32,
   		eggGroups: [""],
 	},
+	aeromo: {
+		  num: 0,
+  		name: "aeromo",
+  		types: ["Fighting", "Flying"],
+  		genderRatio: {M:0.5, F:0.5},
+  		baseStats: {hp: 50, atk: 50, def: 50, spa: 110, spd: 90, spe: 137},
+  		abilities: {0: "Limber", 1: "Receiver", H: "Dancer"},
+  		heightm: .6,
+  		weightkg: 2,
+  		color: "",
+//  		prevo: "",
+  		evoLevel: 32,
+  		eggGroups: [""],
+	},
 };
