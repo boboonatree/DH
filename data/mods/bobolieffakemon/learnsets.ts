@@ -79,4 +79,175 @@ breroot: {learnset: {
         wildcharge: ["8L1"],
         grassyglide: ["8L1"],
 }},
+furnostrich: {learnset: {
+    tackle: ["8L1"],
+}},
+sholossus: {learnset: {
+    tackle: ["8L1"],
+}},
+espopod: {learnset: {
+    tackle: ["8L1"],
+}},
+croissansect: {learnset: {
+    tackle: ["8L1"],
+}},
+piedraderm: {learnset: {
+    tackle: ["8L1"],
+}},
+kakavo: {learnset: {
+    tackle: ["8L1"],
+}},
+pelli: {learnset: {
+    tackle: ["8L1"],
+}},
+dripig: {learnset: {
+    tackle: ["8L1"],
+}},
+harmoth: {learnset: {
+    tackle: ["8L1"],
+}},
+formagia: {learnset: {
+    tackle: ["8L1"],
+}},
+sodia: {learnset: {
+    tackle: ["8L1"],
+}},
+dripig: {learnset: {
+    tackle: ["8L1"],
+}},
+woosher: {learnset: {
+    tackle: ["8L1"],
+}},
+gurso: {learnset: {
+    tackle: ["8L1"],
+}},
+phelpinch: {learnset: {
+    tackle: ["8L1"],
+}},
+shiah: {learnset: {
+    tackle: ["8L1"],
+}},
+gillomen: {learnset: {
+    tackle: ["8L1"],
+}},
+furiotl: {learnset: {
+    tackle: ["8L1"],
+}},
+cuzima: {learnset: {
+    tackle: ["8L1"],
+}},
+themon: {learnset: {
+    tackle: ["8L1"],
+}},
+shocbrute: {learnset: {
+    tackle: ["8L1"],
+}},
+lightnimbus: {learnset: {
+    tackle: ["8L1"],
+}},
+cephalethal: {learnset: {
+    tackle: ["8L1"],
+}},
+malizor: {learnset: {
+    tackle: ["8L1"],
+}},
+lunheron: {learnset: {
+    tackle: ["8L1"],
+}},
+erverena: {learnset: {
+    tackle: ["8L1"],
+}},
+siltmanya: {learnset: {
+    tackle: ["8L1"],
+}},
+tudek: {learnset: {
+    tackle: ["8L1"],
+}},
+glypdorsa: {learnset: {
+    tackle: ["8L1"],
+}},
+voraciousect: {learnset: {
+    tackle: ["8L1"],
+}},
+pichiri: {learnset: {
+    tackle: ["8L1"],
+}},
+wooliba: {learnset: {
+    tackle: ["8L1"],
+}},
+olfacrid: {learnset: {
+    tackle: ["8L1"],
+}},
+rodiche: {learnset: {
+    tackle: ["8L1"],
+}},
+rodichewildwood: {learnset: {
+    tackle: ["8L1"],
+}},
+rodichehinterlands: {learnset: {
+    tackle: ["8L1"],
+}},
+rodichehive: {learnset: {
+    tackle: ["8L1"],
+}},
+mowisp: {learnset: {
+    tackle: ["8L1"],
+}},
+cephalopath: {learnset: {
+    tackle: ["8L1"],
+}},
+vambyss: {learnset: {
+    tackle: ["8L1"],
+}},
+mamicky: {learnset: {
+    tackle: ["8L1"],
+}},
+sklea: {learnset: {
+    tackle: ["8L1"],
+}},
+corazone: {learnset: {
+    tackle: ["8L1"],
+}},
+folivora: {learnset: {
+    tackle: ["8L1"],
+}},
+galena: {learnset: {
+    tackle: ["8L1"],
+}},
+grumplet: {learnset: {
+    tackle: ["8L1"],
+}},
+marlion: {learnset: {
+    tackle: ["8L1"],
+}},
+androsmos: {learnset: {
+    tackle: ["8L1"],
+}},
+dustoph: {learnset: {
+    tackle: ["8L1"],
+}},
+aeromo: {learnset: {
+    tackle: ["8L1"],
+}},
+peekoceros: {learnset: {
+    tackle: ["8L1"],
+}},
+aquimanna: {learnset: {
+    tackle: ["8L1"],
+}},
+apparicious: {learnset: {
+    tackle: ["8L1"],
+}},
+quetzadrakon: {learnset: {
+    tackle: ["8L1"],
+}},
+trybas: {learnset: {
+    tackle: ["8L1"],
+}},
+raiga: {learnset: {
+    tackle: ["8L1"],
+}},
+frogaloft: {learnset: {
+    tackle: ["8L1"],
+}},
 };
