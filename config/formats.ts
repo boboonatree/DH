@@ -3330,7 +3330,11 @@ export const Formats: FormatList = [
         mod: 'bobolieffakemon',
         ruleset: ['Standard NatDex', 'Dynamax Clause', 'Sleep Clause Mod', 'Species Clause', 'Moody Clause', 'Evasion Moves Clause', 'Swagger Clause', 'Baton Pass Clause', 'OHKO Clause', 'Subscribe For More Content'],
         unbanlist: [
-             'Breroot',
+             'Breroot','furnostrich', 'sholossus', 'espopod', 'croissansect', 'piedraderm', 'kakavo', 'pelli', 'dripig', 'harmoth', 'formagia', 'sodia',
+			  	 'dripig', 'woosher', 'gurso', 'phelpinch', 'shiah', 'gillomen', 'uriotl', 'cuzima', 'themon', 'shocbrute', 'lightnimbus', 'cephalethal',
+			  	 'malizor', 'lunheron', 'erverena', 'siltmanya', 'tudek', 'glypdorsa', 'voraciousect', 'pichiri', 'wooliba', 'olfacrid', 'rodiche', 'mowisp',
+			  	 'cephalopath', 'vambyss', 'mamicky', 'sklea', 'corazone', 'folivora', 'galena', 'grumplet', 'marlion', 'androsmos', 'dustoph', 'aeromo',
+			  	 'peekoceros', 'aquimanna', 'apparicious', 'quetzadrakon', 'trybas', 'raiga', 'frogaloft'
 			],
             
 		onSwitchIn(pokemon) {
