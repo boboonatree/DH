@@ -300,7 +300,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
         num: 1029,
           name: "Erverena", //dormant
           types: ["Fire", "Water"],
-          gender: “M”,
+          gender: "M",
           baseStats: {hp: 105, atk: 50, def: 140, spa: 50, spd: 70, spe: 50},
           abilities: {0: "Dry Skin", 1: "Drizzle", H: "Illuminate"},
           heightm: 1.4,
