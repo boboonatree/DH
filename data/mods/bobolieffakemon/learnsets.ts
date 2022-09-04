@@ -78,7 +78,7 @@ breroot: {learnset: {
         toxic: ["8L1"],
         wildcharge: ["8L1"],
         grassyglide: ["8L1"],
-}},
+}}, 
 furnostrich: {learnset: {
     tackle: ["8L1"],
 }},
@@ -112,7 +112,7 @@ formagia: {learnset: {
 sodia: {learnset: {
     tackle: ["8L1"],
 }},
-dripig: {learnset: {
+infekshi: {learnset: {
     tackle: ["8L1"],
 }},
 woosher: {learnset: {
@@ -199,7 +199,7 @@ cephalopath: {learnset: {
 vambyss: {learnset: {
     tackle: ["8L1"],
 }},
-mamicky: {learnset: {
+mammicky: {learnset: {
     tackle: ["8L1"],
 }},
 sklea: {learnset: {
@@ -249,5 +249,5 @@ raiga: {learnset: {
 }},
 frogaloft: {learnset: {
     tackle: ["8L1"],
-}},
+}}, 
 };
