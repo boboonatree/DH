@@ -47,7 +47,7 @@ sodia: {
     tier: "leif",
     doublesTier: "leif",
 },
-dripig: {
+infekshi: {
     tier: "leif",
     doublesTier: "leif",
 },
@@ -163,7 +163,7 @@ vambyss: {
     tier: "leif",
     doublesTier: "leif",
 },
-mamicky: {
+mammicky: {
     tier: "leif",
     doublesTier: "leif",
 },
