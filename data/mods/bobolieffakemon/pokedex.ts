@@ -589,7 +589,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
           species: "Apparicious",
           types: ["Ghost"],
           genderRatio: {M: 0.5, F: 0.5},
-          baseStats: {hp: 50, atk: 80, def: 50, spa: 135, spd: 80, spe: 105},
+          baseStats: {hp: 50, atk: 85, def: 50, spa: 135, spd: 80, spe: 100},
           abilities: {0: "Cursed Body", 1: "Strong Jaw", H: "Neutralizing Gas"},
           heightm: 0.9,
           weightkg: 0.1,
