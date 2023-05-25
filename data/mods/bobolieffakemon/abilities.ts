@@ -676,6 +676,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: 128,
 	},
+	defrost: {
+		onUpdate(pokemon) {
+			if (pokemon.status === 'frz') {
+				this.add('-activate', pokemon, 'ability: defrost');
+				pokemon.cureStatus();
+			}
+		},
+		onImmunity(type, pokemon) {
+			if (type === 'frz') return false;
+		},
+		name: "Defrost",
+		rating: 1,
+		num: 40,
+	},
 	deltastream: {
 		onStart(source) {
 			this.field.setWeather('deltastream');
