@@ -126,7 +126,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
           types: ["Rock"],
           gender: "N",
           baseStats: {hp: 50, atk: 100, def: 110, spa: 60, spd: 60, spe: 98},
-          abilities: {0: "Illuminate", 1: "Defiant", H: "Sturdy"},
+          abilities: {0: "Defrost", 1: "Defiant", H: "Sturdy"},
           heightm: 0.6,
           weightkg: 45,
           eggGroups: ["Undiscovered"],
