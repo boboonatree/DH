@@ -247,7 +247,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
           types: ["Dragon"],
           genderRatio: {M: 0.5, F: 0.5},
           baseStats: {hp: 80, atk: 135, def: 95, spa: 63, spd: 55, spe: 77},
-          abilities: {0: "Illuminate", 1: "Rock Head", H: "Quick Feet"},
+          abilities: {0: "Force Of Nature", 1: "Rock Head", H: "Quick Feet"},
           heightm: 1.8,
           weightkg: 907,
           eggGroups: ["Undiscovered"],
