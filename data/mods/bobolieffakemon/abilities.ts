@@ -1091,6 +1091,21 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 218,
 	},
+	forceofnature: {
+		onSwitchIn(pokemon) {
+			this.effectData.switchingIn = true;
+		},
+		onStart(pokemon) {
+			// Force Of Nature does not activate when Skill Swapped or when Neutralizing Gas leaves the field
+			if (!this.effectData.switchingIn) return;
+			this.add('-ability', pokemon, 'Force Of Nature');
+			this.effectData.switchingIn = false;
+		},
+		suppressWeather: true,
+		name: "Force Of Nature",
+		rating: 2,
+		num: 13,
+	},
 	forcefield: {
 		onModifyDefPriority: 6,
 		onModifyDef(def) {
