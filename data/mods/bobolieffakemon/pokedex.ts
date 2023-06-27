@@ -181,7 +181,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
           types: ["Water", "Ghost"],
           genderRatio: {M: 0.5, F: 0.5},
           baseStats: {hp: 160, atk: 20, def: 100, spa: 40, spd: 100, spe: 40},
-          abilities: {0: "Damp", 1: "Perish Body", H: "Illuminate"},
+          abilities: {0: "Damp", 1: "Perish Body", H: "Huge Power"},
           heightm: 5.6,
           weightkg: 999,
           eggGroups: ["Undiscovered"],
