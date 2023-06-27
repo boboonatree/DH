@@ -5,7 +5,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
           types: ["Grass", "Ground"],
           genderRatio: {M: 0.5, F: 0.5},
           baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 60, spe: 60},
-          abilities: {0: "Storm Drain", H: "Ripen"},
+          abilities: {0: "Storm Drain", 1: "Regenerator", H: "Ripen"},
           heightm: 1.8,
           weightkg: 900,          
           eggGroups: ["Undiscovered"],
