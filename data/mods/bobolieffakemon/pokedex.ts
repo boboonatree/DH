@@ -38,7 +38,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
           types: ["Bug", "Psychic"],
           genderRatio: {M: 0.5, F: 0.5},
           baseStats: {hp: 55, atk: 50, def: 50, spa: 95, spd: 125, spe: 85},
-          abilities: {0: "Illuminate", 1: "Tinted Lens", H: "Trace"},
+          abilities: {0: "Forcefield", 1: "Tinted Lens", H: "Trace"},
           heightm: 0.3,
           weightkg: 6.3,
           eggGroups: ["Undiscovered"],
