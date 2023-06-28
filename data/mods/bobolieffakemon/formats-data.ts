@@ -231,4 +231,8 @@ frogaloft: {
     tier: "leif",
     doublesTier: "leif",
 },
+teranim: {
+    tier: "leif",
+    doublesTier: "leif",
+},
 };
