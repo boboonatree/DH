@@ -639,4 +639,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
           weightkg: 27,
           eggGroups: ["Undiscovered"],
     },
+	 teranim: {
+        num: 1058,
+          species: "Teranim",
+          types: ["Ground"],
+          genderRatio: "N",
+          baseStats: {hp: 115, atk: 130, def: 130, spa: 50, spd: 60, spe: 54},
+          abilities: {0: "Illuminate"},
+          heightm: 1.7,
+          weightkg: 1361,
+          eggGroups: ["Undiscovered"],
+    },
 };
