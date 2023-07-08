@@ -1008,6 +1008,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 18,
 	},
+	flattery: {
+		onStart(pokemon) {
+			let activated = false;
+			for (const target of pokemon.side.foe.active) {
+				if (!target || !this.isAdjacent(target, pokemon)) continue;
+				if (!activated) {
+					this.add('-ability', pokemon, 'Flattery', 'boost');
+					activated = true;
+				}
+				if (target.volatiles['substitute']) {
+					this.add('-immune', target);
+				} else {
+					this.boost({atk: 1}, target, pokemon, null, true);
+				}
+			}
+		},
+		name: "Flattery",
+		rating: 3.5,
+		num: 22,
+	},
 	flowergift: {
 		onStart(pokemon) {
 			delete this.effectData.forme;
