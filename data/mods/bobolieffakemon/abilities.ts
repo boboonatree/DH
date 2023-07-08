@@ -1025,7 +1025,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		name: "Flattery",
-		rating: 3.5,
+		rating: -1,
 		num: 22,
 	},
 	flowergift: {
