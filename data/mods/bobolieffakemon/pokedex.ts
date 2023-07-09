@@ -71,7 +71,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
           types: ["Normal", "Psychic"],
           genderRatio: {M: 0.5, F: 0.5},
           baseStats: {hp: 50, atk: 50, def: 80, spa: 110, spd: 120, spe: 50},
-          abilities: {0: "Wandering Spirit", 1: "Illuminate", H: "Simple"},
+          abilities: {0: "Wandering Spirit", 1: "Enlightened Soul", H: "Simple"},
           heightm: 0.9,
           weightkg: 4.5,
           eggGroups: ["Undiscovered"],
