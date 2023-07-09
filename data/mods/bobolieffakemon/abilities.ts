@@ -918,6 +918,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 194,
 	},
+	enlightenedsoul: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Ground') {
+					this.add('-immune', target, '[from] ability: Enlightened Soul');
+				}
+				return null;
+			}
+		},
+		name: "Enlightened Soul",
+		rating: 3.5,
+		num: 10,
+	},
 	fairyaura: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Fairy Aura');
