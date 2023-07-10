@@ -214,7 +214,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
           types: ["Dark"],
           gender: "N",
           baseStats: {hp: 55, atk: 70, def: 50, spa: 83, spd: 105, spe: 50},
-          abilities: {0: "Illuminate", 1: "Magic Bounce", H: "Stakeout"},
+          abilities: {0: "Preservation", 1: "Magic Bounce", H: "Stakeout"},
           heightm: 1.8,
           weightkg: 32,
           eggGroups: ["Undiscovered"],
