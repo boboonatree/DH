@@ -2780,6 +2780,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 158,
 	},
+	preservation: {
+        onModifyMove(move, pokemon) {
+            if (move?.flags['heal']) pokemon.switchFlag = true;
+        },
+        name: "Preservation",
+        rating: 3.5,
+        num: 1000,
+    },
 	pressure: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Pressure');
