@@ -223,6 +223,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 188,
 	},
+	avian: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Flying') {
+				this.debug('Steelworker boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Flying') {
+				this.debug('Steelworker boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Avian",
+		rating: 3.5,
+		num: 200,
+	},
 	baddreams: {
 		onResidualOrder: 26,
 		onResidualSubOrder: 1,
