@@ -258,7 +258,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
           types: ["Dark"],
           genderRatio: {M: 0.5, F: 0.5},
           baseStats: {hp: 105, atk: 125, def: 75, spa: 60, spd: 70, spe: 75},
-          abilities: {0: "Illuminate", 1: "Infiltrator", H: "Merciless"},
+          abilities: {0: "Avian", 1: "Infiltrator", H: "Merciless"},
           heightm: 2.3,
           weightkg: 159,
           eggGroups: ["Undiscovered"],
