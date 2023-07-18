@@ -15,7 +15,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
           species: "Furnostrich",
           types: ["Fire", "Steel"],
           genderRatio: {M: 0.5, F: 0.5},
-          baseStats: {hp: 80, atk: 90, def: 86, spa: 104, spd: 60, spe: 100},
+          baseStats: {hp: 80, atk: 104, def: 86, spa: 90, spd: 60, spe: 100},
           abilities: {0: "Steam Engine", 1: "Tangled Feet", H: "Flame Body"},
           heightm: 2.1,
           weightkg: 145,
