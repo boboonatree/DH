@@ -517,6 +517,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 14,
 	},
+	contagiouswound: {
+        name: "Contagious Wound",
+        onAnyFaintPriority: 1,
+        onAnyFaint() {
+            for (const allPokemon of this.getAllActive()) {
+                if (!this.effectData.target.hp) {
+                  allPokemon.trySetStatus('psn', this.effectData.target);
+                }
+            }
+        },
+        rating: 2.5,
+        num: 106,
+    },
 	contrary: {
 		onBoost(boost, target, source, effect) {
 			if (effect && effect.id === 'zpower') return;
@@ -2715,7 +2728,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	poisonpoint: {
 		onDamagingHit(damage, target, source, move) {
 			if (move.flags['contact']) {
-				if (this.randomChance(3, 10)) {
+				if (this.randomChance(10, 10)) {
 					source.trySetStatus('psn', target);
 				}
 			}
