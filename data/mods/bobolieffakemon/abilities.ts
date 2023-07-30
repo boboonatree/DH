@@ -4071,6 +4071,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: 36,
 	},
+	trailofmalady: {
+		onStart(source) {
+		},
+		onEnd(pokemon) {
+	
+		},
+		name: "Trail of Malady",
+		rating: 4,
+		num: 191,
+	},
 	transistor: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
