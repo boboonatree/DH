@@ -18321,6 +18321,39 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {spe: 1}},
 		contestType: "Tough",
 	},
+	trailmalady: {
+		num: 219,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Safeguard",
+		pp: 25,
+		priority: 0,
+		flags: {snatch: 1},
+		sideCondition: 'safeguard',
+		condition: {
+			duration: 1,
+			durationCallback(target, source, effect) {
+				if (source?.hasAbility('persistent')) {
+					this.add('-activate', source, 'ability: Persistent', effect);
+					return 7;
+				}
+				return 5;
+			},
+			onStart(side) {
+				this.add('-sidestart', side, 'Safeguard');
+			},
+			onResidualOrder: 21,
+			onResidualSubOrder: 2,
+			onEnd(side) {
+				this.add('-sideend', side, 'Safeguard');
+			},
+		},
+		secondary: null,
+		target: "allySide",
+		type: "Normal",
+		zMove: {boost: {spe: 1}},
+		contestType: "Beautiful",
 	transform: {
 		num: 144,
 		accuracy: true,
