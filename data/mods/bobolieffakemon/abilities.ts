@@ -4075,6 +4075,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onStart(source) {
 		},
 		onEnd(pokemon) {
+			pokemon.side.getSideCondition(sideCondition);
 	
 		},
 		name: "Trail of Malady",
