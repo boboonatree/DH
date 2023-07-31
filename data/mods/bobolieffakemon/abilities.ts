@@ -4076,8 +4076,29 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onEnd(pokemon) {
 			pokemon.side.getSideCondition(sideCondition);
-	
+			condition: {
+			onSwitchIn(pokemon) {
+				if (!pokemon.isGrounded()) return;
+				} else if (pokemon.hasType('Steel') || pokemon.hasItem('heavydutyboots')) {
+					return;
+				} else {
+					pokemon.trySetStatus('psn', pokemon.side.ally.active[0]);
+				}
+			},
 		},
+		secondary: null,
+		target: "allySide",
+		type: "Poison",
+		zMove: {boost: {def: 1}},
+		contestType: "Clever",
+			onStart(side) {
+				this.add('-sidestart', side, 'Trail of Malady');
+			},
+			onResidualOrder: 21,
+			onResidualSubOrder: 2,
+			onEnd(side) {
+				this.add('-sideend', side, 'Trail of Malady');
+			},
 		name: "Trail of Malady",
 		rating: 4,
 		num: 191,
