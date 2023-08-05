@@ -2613,6 +2613,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 257,
 	},
+	perennialawakening: {
+		onStart(pokemon) {
+			delete this.effectData.forme;
+		},
+		onUpdate(pokemon) {
+			if (!pokemon.isActive || pokemon.baseSpecies.baseSpecies !== 'Erverena' || pokemon.transformed) return;
+			if (['raindance', 'primordialsea'].includes(pokemon.effectiveWeather())) {
+				if (pokemon.species.id !== 'erverenaawakened') {
+					pokemon.formeChange('Erverena-Awakened', this.effect, false, '[msg]');
+				}
+			} else {
+				if (pokemon.species.id === 'erverenaawakened') {
+					pokemon.formeChange('Erverena', this.effect, false, '[msg]');
+				}
+			}
+		},
+		name: "Perennial Awakening",
+		rating: 1,
+		num: 122,
+	},
 	perishbody: {
 		onDamagingHit(damage, target, source, move) {
 			if (!move.flags['contact']) return;
