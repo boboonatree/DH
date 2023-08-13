@@ -2695,6 +2695,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0.5,
 		num: 53,
 	},
+	pitcherarmor: {
+		onModifySpAPriority: 5,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.side.active.length === 1) {
+				return;
+			}
+			for (const allyActive of pokemon.side.active) {
+				if (
+					allyActive && allyActive.position !== pokemon.position &&
+					!allyActive.fainted && allyActive.hasAbility(['minus', 'plus'])
+				) {
+					return this.chainModify(1.5);
+				}
+			}
+		},
+		name: "Plus",
+		rating: 0,
+		num: 57,
+	},
 	pixilate: {
 		onModifyTypePriority: -1,
 		onModifyType(move, pokemon) {
