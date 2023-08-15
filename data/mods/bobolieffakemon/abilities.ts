@@ -1401,6 +1401,36 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 265,
 	},
+	guanoboost: {
+		onModifyDefPriority: 6,
+		onModifyDef(def) {
+			return:
+			}
+			for (const allyActive) {
+				if (
+					allyActive && allyActive.position !== pokemon.position &&
+					!allyActive.fainted && allyActive.species.id === 'pichiri'
+				) {
+					return this.chainModify(2);
+				}
+			}
+		onModifySpdPriority: 6,
+		onModifySpd(spd) {
+			return:
+			}
+			for (const allyActive) {
+				if (
+					allyActive && allyActive.position !== pokemon.position &&
+					!allyActive.fainted && allyActive.species.id === 'pichiri'
+				) {
+					return this.chainModify(2);
+				}
+			}
+		},
+		name: "Guano Boost",
+		rating: 0,
+		num: 57,
+	},
 	gulpmissile: {
 		onDamagingHit(damage, target, source, move) {
 			if (target.transformed || target.isSemiInvulnerable()) return;
@@ -2696,21 +2726,32 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 53,
 	},
 	pitcherarmor: {
-		onModifySpAPriority: 5,
-		onModifySpA(spa, pokemon) {
-			if (pokemon.side.active.length === 1) {
-				return;
+		onModifyDefPriority: 6,
+		onModifyDef(def) {
+			return:
 			}
-			for (const allyActive of pokemon.side.active) {
+			for (const allyActive) {
 				if (
 					allyActive && allyActive.position !== pokemon.position &&
-					!allyActive.fainted && allyActive.hasAbility(['minus', 'plus'])
+					!allyActive.fainted && allyActive.species.id === 'pichiri'
 				) {
-					return this.chainModify(1.5);
+					return this.chainModify(2);
+				}
+			}
+		onModifySpdPriority: 6,
+		onModifySpd(spd) {
+			return:
+			}
+			for (const allyActive) {
+				if (
+					allyActive && allyActive.position !== pokemon.position &&
+					!allyActive.fainted && allyActive.species.id === 'pichiri'
+				) {
+					return this.chainModify(2);
 				}
 			}
 		},
-		name: "Plus",
+		name: "Pitcher Armor",
 		rating: 0,
 		num: 57,
 	},
