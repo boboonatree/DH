@@ -1402,30 +1402,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 265,
 	},
 	guanoboost: {
-		onModifyDefPriority: 6,
-		onModifyDef(def) {
-			return:
+		onDamagePriority: 1,
+		onDamage(damage, target, source, effect) {
+		if (pokemon.side.active.length === 1) {
+				return;
 			}
 			for (const allyActive) {
 				if (
 					allyActive && allyActive.position !== pokemon.position &&
-					!allyActive.fainted && allyActive.species.id === 'pichiri'
+					!allyActive.fainted && allyActive.species.id === 'wooliba'
 				) {
-					return this.chainModify(2);
+				this.heal(target.baseMaxhp / 4);
+				return false;
 				}
-			}
-		onModifySpdPriority: 6,
-		onModifySpd(spd) {
-			return:
-			}
-			for (const allyActive) {
-				if (
-					allyActive && allyActive.position !== pokemon.position &&
-					!allyActive.fainted && allyActive.species.id === 'pichiri'
-				) {
-					return this.chainModify(2);
-				}
-			}
+			} 
 		},
 		name: "Guano Boost",
 		rating: 0,
