@@ -1407,7 +1407,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		if (pokemon.side.active.length === 1) {
 				return;
 			}
-			for (const allyActive) {
+			for (const allyActive of pokemon.side.active) {
 				if (
 					allyActive && allyActive.position !== pokemon.position &&
 					!allyActive.fainted && allyActive.species.id === 'wooliba'
@@ -2718,8 +2718,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	pitcherarmor: {
 		onModifyDefPriority: 6,
 		onModifyDef(def) {
-			return:
-			}
 			for (const allyActive) {
 				if (
 					allyActive && allyActive.position !== pokemon.position &&
@@ -2730,8 +2728,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		onModifySpdPriority: 6,
 		onModifySpd(spd) {
-			return:
-			}
 			for (const allyActive) {
 				if (
 					allyActive && allyActive.position !== pokemon.position &&
