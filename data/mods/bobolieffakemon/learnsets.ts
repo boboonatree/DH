@@ -146,7 +146,6 @@ furnostrich: {learnset: {
 	 mimic: ["8L1"],
 	 reflect: ["8L1"],
 	 solarbeam: ["8L1"],
-	 scald: ["8L1"],
 }},
 sholossus: {learnset: {
     tackle: ["8L1"],
