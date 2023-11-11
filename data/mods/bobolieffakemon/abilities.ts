@@ -4269,6 +4269,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 84,
 	},
+	universalcharm: {
+		onDamagingHit(damage, target, source, move) {
+			if (move.flags['contact']) {
+				if (this.randomChance(3, 10)) {
+					source.addVolatile('attract', this.effectData.target);
+				}
+			}
+		},
+		name: "Universal Charm",
+		rating: 0.5,
+		num: 56,
+	},
 	unnerve: {
 		onPreStart(pokemon) {
 			this.add('-ability', pokemon, 'Unnerve', pokemon.side.foe);
