@@ -4357,7 +4357,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				if (this.randomChance(3, 10)) {
 					onStart(target, source) {
 				this.add('-fieldstart', 'move: Trick Room', '[of] ' + source);
-			},
+					}},
 			onRestart(target, source) {
 				this.field.removePseudoWeather('trickroom');
 			},
