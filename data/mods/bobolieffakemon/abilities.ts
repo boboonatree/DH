@@ -2794,7 +2794,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	poisonpoint: {
 		onDamagingHit(damage, target, source, move) {
 			if (move.flags['contact']) {
-				if (this.randomChance(10, 10)) {
+				if (this.randomChance(3, 10)) {
 					source.trySetStatus('psn', target);
 				}
 			}
