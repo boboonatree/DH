@@ -549,10 +549,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     androsmos: {
         num: 1048,
           species: "Androsmos",
-          types: ["Steel"],
-          gender: "N",
+          types: ["Electric", "Fairy"],
+          gender: ["M", "F"],
           baseStats: {hp: 70, atk: 70, def: 90, spa: 110, spd: 110, spe: 50},
-          abilities: {0: "Plus", 1: "Mold Breaker", H: "Illuminate"},
+          abilities: {0: "Plus", 1: "Mold Breaker", H: "Universal Charm"},
           heightm: 1.6,
           weightkg: 45,
           eggGroups: ["Undiscovered"],
