@@ -4351,6 +4351,27 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: 254,
 	},
+	warped: {
+		onDamagingHit(damage, target, source, move) {
+			if (move.flags['contact']) {
+				if (this.randomChance(3, 10)) {
+					onStart(target, source) {
+				this.add('-fieldstart', 'move: Trick Room', '[of] ' + source);
+			},
+			onRestart(target, source) {
+				this.field.removePseudoWeather('trickroom');
+			},
+			// Speed modification is changed in Pokemon.getActionSpeed() in sim/pokemon.js
+			onResidualOrder: 23,
+			onEnd() {
+				this.add('-fieldend', 'move: Trick Room');
+				}
+			}
+		},
+		name: "Warped",
+		rating: 2,
+		num: 49,
+	},
 	waterabsorb: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Water') {
