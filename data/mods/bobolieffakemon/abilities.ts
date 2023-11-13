@@ -2852,7 +2852,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onTakeItem(item, pokemon) {
 			pokemon.trySetStatus('slp', pokemon);
 		},
-	},
 		name: "Power Link",
 		rating: 0.5,
 		num: 107,
