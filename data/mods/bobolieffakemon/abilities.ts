@@ -2840,6 +2840,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 5,
 		num: 211,
 	},
+	powerlink: {
+		onStart(pokemon) {
+			if (!pokemon.item)
+			pokemon.trySetStatus('slp', pokemon);
+		}
+		onAfterUseItem(item, pokemon) {
+			if (pokemon !== this.effectData.target) return;
+			pokemon.trySetStatus('slp', pokemon);
+		},
+		onTakeItem(item, pokemon) {
+			pokemon.trySetStatus('slp', pokemon);
+		},
+	},
 	powerofalchemy: {
 		onAllyFaint(target) {
 			if (!this.effectData.target.hp) return;
