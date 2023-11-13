@@ -2853,6 +2853,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			pokemon.trySetStatus('slp', pokemon);
 		},
 	},
+		name: "Power Link",
+		rating: 0.5,
+		num: 107,
+	},
 	powerofalchemy: {
 		onAllyFaint(target) {
 			if (!this.effectData.target.hp) return;
