@@ -4368,7 +4368,6 @@ Ratings and how they work:
 		num: 254,
 	},
 	warped: {
-<<<<<<< Updated upstream
 onDamagingHit(damage, target, source, move) {
 if (this.checkMoveMakesContact(move, source, target)) {
 if (this.randomChance(3, 10)) {
@@ -4413,19 +4412,6 @@ name: "Warped",
 rating: 0,
 num: 8000,
 },
-=======
-        onDamagingHit(damage, target, source, move) {
-            if (move.flags['contact']) {
-                if (this.randomChance(3, 10)) {
-                    this.actions.useMove("Trick Room", source, source);
-                }
-            }
-        },
-        name: "Warped",
-        rating: 2,
-        num: 49,
-    },
->>>>>>> Stashed changes
 	waterabsorb: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Water') {
