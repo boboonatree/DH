@@ -4357,7 +4357,7 @@ Ratings and how they work:
 				if (!sourceAbility) return;
 				if (target.side === source.side) {
 					this.add('-activate', target, 'Skill Swap', '', '', '[of] ' + source);
-				} else {
+				}, else {
 					this.add('-activate', target, 'ability: Wandering Spirit', this.dex.getAbility(sourceAbility).name, 'Wandering Spirit', '[of] ' + source);
 				}
 				target.setAbility(sourceAbility);
