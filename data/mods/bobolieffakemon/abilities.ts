@@ -4379,26 +4379,50 @@ Ratings and how they work:
 		num: 254,
 	},
 	warped: {
-		onDamagingHit(damage, target, source, move) {
-			if (move.flags['contact']) {
-				if (this.randomChance(3, 10)) {
-					onStart(target, source) {
-				this.add('-fieldstart', 'move: Trick Room', '[of] ' + source);
-					}},
-			onRestart(target, source) {
-				this.field.removePseudoWeather('trickroom');
-			},
-			// Speed modification is changed in Pokemon.getActionSpeed() in sim/pokemon.js
-			onResidualOrder: 23,
-			onEnd() {
-				this.add('-fieldend', 'move: Trick Room');
-				}
-			}
-		},
-		name: "Warped",
-		rating: 2,
-		num: 49,
-	},
+onDamagingHit(damage, target, source, move) {
+if (this.checkMoveMakesContact(move, source, target)) {
+if (this.randomChance(3, 10)) {
+this.field.addPseudoWeather('trickroom');
+}
+}
+},
+pseudoWeather: 'trickroom',
+condition: {
+duration: 5,
+durationCallback(source, effect) {
+if (source?.hasAbility('persistent')) {
+this.add('-activate', source, 'ability: Persistent', '[move] Trick Room');
+return 7;
+}
+return 5;
+},
+onFieldStart(target, source) {
+if (source?.hasAbility('persistent')) {
+this.add('-fieldstart', 'move: Trick Room', '[of] ' + source, '[persistent]');
+} else {
+this.add('-fieldstart', 'move: Trick Room', '[of] ' + source);
+}
+},
+onFieldRestart(target, source) {
+this.field.removePseudoWeather('trickroom');
+},
+// Speed modification is changed in Pokemon.getActionSpeed() in sim/pokemon.js
+onFieldResidualOrder: 27,
+onFieldResidualSubOrder: 1,
+onFieldEnd() {
+this.add('-fieldend', 'move: Trick Room');
+},
+},
+secondary: null,
+target: "all",
+type: "Psychic",
+zMove: {boost: {accuracy: 1}},
+contestType: "Clever",
+flags: {},
+name: "Warped",
+rating: 0,
+num: 8000,
+},
 	waterabsorb: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Water') {

@@ -413,7 +413,6 @@ piedraderm: {learnset: {
 	 sleeptalk: ["8L1"],
 	 smartstrike: ["8L1"],
 	 snatch: ["8L1"],
-	 stealthrock: ["8L1"],
 	 stoneedge: ["8L1"],
 	 substitute: ["8L1"],
 	 swagger: ["8L1"],
