@@ -34,6 +34,7 @@ Ratings and how they work:
 */
 
 
+	noability: {
 		isNonstandard: "Past",
 		name: "No Ability",
 		rating: 0.1,
@@ -953,7 +954,6 @@ Ratings and how they work:
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Ground') {
 					this.add('-immune', target, '[from] ability: Enlightened Soul');
-				}
 				return null;
 			}
 		},
@@ -2715,31 +2715,32 @@ Ratings and how they work:
 		num: 53,
 	},
 	pitcherarmor: {
-		onModifyDefPriority: 6,
-		onModifyDef(def) {
-			for (const allyActive) {
-				if (
-					allyActive && allyActive.position !== pokemon.position &&
-					!allyActive.fainted && allyActive.species.id === 'pichiri'
-				) {
-					return this.chainModify(2);
-				}
-			}
-		onModifySpdPriority: 6,
-		onModifySpd(spd) {
-			for (const allyActive) {
-				if (
-					allyActive && allyActive.position !== pokemon.position &&
-					!allyActive.fainted && allyActive.species.id === 'pichiri'
-				) {
-					return this.chainModify(2);
-				}
-			}
-		},
-		name: "Pitcher Armor",
-		rating: 0,
-		num: 57,
-	},
+        onModifyDefPriority: 6,
+        onModifyDef(def) {
+            for (const allyActive of pokemon.adjacentAllies()) {
+                if ( 
+                    allyActive && (allyActive.position !== pokemon.position) &&
+                    !allyActive.fainted && (allyActive.species.id === 'pichiri')
+                ) {
+                    return this.chainModify(2);
+                }
+            }
+        }, 
+        onModifySpdPriority: 6,
+        onModifySpd(spd) {
+            for (const allyActive of pokemon.adjacentAllies()) {
+                if (
+                    allyActive && (allyActive.position !== pokemon.position) &&
+                    !allyActive.fainted && (allyActive.species.id === 'pichiri')
+                ) {
+                    return this.chainModify(2);
+                }
+            }
+        },
+        name: "Pitcher Armor",
+        rating: 0,
+        num: 57,
+    },
 	pixilate: {
 		onModifyTypePriority: -1,
 		onModifyType(move, pokemon) {
@@ -2843,7 +2844,7 @@ Ratings and how they work:
 		onStart(pokemon) {
 			if (!pokemon.item)
 			pokemon.trySetStatus('slp', pokemon);
-		}
+		},
 		onAfterUseItem(item, pokemon) {
 			if (pokemon !== this.effectData.target) return;
 			pokemon.trySetStatus('slp', pokemon);
@@ -4153,37 +4154,25 @@ Ratings and how they work:
 		num: 36,
 	},
 	trailofmalady: {
-		onStart(source) {
-		},
-		onEnd(pokemon) {
-			pokemon.side.getSideCondition(sideCondition);
-			condition: {
-			onSwitchIn(pokemon) {
-				if (!pokemon.isGrounded()) return;
-				} else if (pokemon.hasType('Steel') || pokemon.hasItem('heavydutyboots')) {
-					return;
-				} else {
-					pokemon.trySetStatus('psn', pokemon.side.ally.active[0]);
-				}
-			},
-		},
-		secondary: null,
-		target: "allySide",
-		type: "Poison",
-		zMove: {boost: {def: 1}},
-		contestType: "Clever",
-			onStart(side) {
-				this.add('-sidestart', side, 'Trail of Malady');
-			},
-			onResidualOrder: 21,
-			onResidualSubOrder: 2,
-			onEnd(side) {
-				this.add('-sideend', side, 'Trail of Malady');
-			},
-		name: "Trail of Malady",
-		rating: 4,
-		num: 191,
-	},
+        onStart(side) {
+            this.add('-sidestart', side, 'Trail of Malady');
+        },
+        onEnd(side) {
+            this.add('-sideend', side, 'Trail of Malady');
+        },
+        sideCondition: 'trailofmalady',
+        condition: {
+            onStart(pokemon) {
+                pokemon.side.removeSideCondition('trailofmalady');
+                if (!pokemon.isGrounded()) return;
+                else if (pokemon.hasType('Poison') || pokemon.hasType('Steel') || pokemon.hasItem('heavydutyboots')) return;
+                else pokemon.trySetStatus('psn', pokemon.side.foe.active[0]);
+            },    
+        },
+        name: "Trail of Malady",
+        rating: 4,
+        num: 191,
+    },
 	transistor: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
@@ -4379,6 +4368,7 @@ Ratings and how they work:
 		num: 254,
 	},
 	warped: {
+<<<<<<< Updated upstream
 onDamagingHit(damage, target, source, move) {
 if (this.checkMoveMakesContact(move, source, target)) {
 if (this.randomChance(3, 10)) {
@@ -4423,6 +4413,19 @@ name: "Warped",
 rating: 0,
 num: 8000,
 },
+=======
+        onDamagingHit(damage, target, source, move) {
+            if (move.flags['contact']) {
+                if (this.randomChance(3, 10)) {
+                    this.actions.useMove("Trick Room", source, source);
+                }
+            }
+        },
+        name: "Warped",
+        rating: 2,
+        num: 49,
+    },
+>>>>>>> Stashed changes
 	waterabsorb: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Water') {
