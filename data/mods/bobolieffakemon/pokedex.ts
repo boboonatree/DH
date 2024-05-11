@@ -656,7 +656,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
           weightkg: 27,
           eggGroups: ["Undiscovered"],
     },
-	 teranim: {
+	  teranim: {
         num: 1058,
           species: "Teranim",
           types: ["Ground"],
@@ -667,4 +667,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
           weightkg: 1361,
           eggGroups: ["Undiscovered"],
     },
+    osho: {
+      num: 1057,
+        species: "Osho",
+        types: ["Water"],
+        genderRatio: {M: 0.5, F: 0.5},
+        baseStats: {hp: 67, atk: 80, def: 67, spa: 80, spd: 90, spe: 106},
+        abilities: {0: "Color Change", 1: "Magician", H: "Suction Cups"},
+        heightm: 0.6,
+        weightkg: 8,
+        eggGroups: ["Undiscovered"],
+  },
 };

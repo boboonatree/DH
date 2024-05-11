@@ -5184,3 +5184,797 @@ Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
     at ChildProcess.emit (node:domain:475:12)
     at finish (node:internal/child_process:902:14)
     at processTicksAndRejections (node:internal/process/task_queues:78:11)
+
+Error: Species with no learnset data: teranim
+    at TeamValidator.checkLearnset (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/team-validator.js:1867:11)
+    at TeamValidator.validateSet (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/team-validator.js:589:33)
+    at TeamValidator.baseValidateTeam (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/team-validator.js:269:60)
+    at TeamValidator.validateTeam (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/team-validator.js:217:15)
+    at QueryProcessManager._query (/Users/leifbryning/Documents/GitHub/DH/.server-dist/team-validator-async.js:51:57)
+    at process.<anonymous> (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:540:30)
+    at process.emit (node:events:514:28)
+    at process.emit (node:domain:488:12)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+Additional information:
+  formatid = gen8leif
+  team = Harmoth||leftovers|flattery|tackle||8,,,,,|||||,,,,,???]Rodiche-Wildwood||leftovers|warped|tackle||8,,,,,|||||,,,,,???]Teranim||leftovers|powerlink|earthquake||8,,,,,|||||,,,,,???]Erverena-Dormant||leftovers|perennialawakening|tackle,raindance,sunnyday,scald||8,,,,,|||||,,,,,???
+
+
+Error: Species with no learnset data: teranim
+    at TeamValidator.checkLearnset (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/team-validator.js:1867:11)
+    at TeamValidator.validateSet (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/team-validator.js:589:33)
+    at TeamValidator.baseValidateTeam (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/team-validator.js:269:60)
+    at TeamValidator.validateTeam (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/team-validator.js:217:15)
+    at QueryProcessManager._query (/Users/leifbryning/Documents/GitHub/DH/.server-dist/team-validator-async.js:51:57)
+    at process.<anonymous> (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:540:30)
+    at process.emit (node:events:514:28)
+    at process.emit (node:domain:488:12)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+Additional information:
+  formatid = gen8leif
+  team = Harmoth||leftovers|flattery|tackle||8,,,,,|||||,,,,,???]Rodiche-Wildwood||leftovers|warped|tackle||8,,,,,|||||,,,,,???]Teranim||leftovers|powerlink|earthquake||8,,,,,|||||,,,,,???]Erverena-Dormant||leftovers|perennialawakening|tackle,raindance,sunnyday,scald||8,,,,,|||||,,,,,???
+
+
+Error: Species with no learnset data: teranim
+    at TeamValidator.checkLearnset (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/team-validator.js:1867:11)
+    at TeamValidator.validateSet (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/team-validator.js:589:33)
+    at TeamValidator.baseValidateTeam (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/team-validator.js:269:60)
+    at TeamValidator.validateTeam (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/team-validator.js:217:15)
+    at QueryProcessManager._query (/Users/leifbryning/Documents/GitHub/DH/.server-dist/team-validator-async.js:51:57)
+    at process.<anonymous> (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:540:30)
+    at process.emit (node:events:514:28)
+    at process.emit (node:domain:488:12)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+Additional information:
+  formatid = gen8leif
+  team = Harmoth||leftovers|flattery|tackle||8,,,,,|||||,,,,,???]Rodiche-Wildwood||leftovers|warped|tackle||8,,,,,|||||,,,,,???]Teranim||leftovers|powerlink|earthquake||8,,,,,|||||,,,,,???]|||||||||||
+
+
+Error: Species with no learnset data: teranim
+    at TeamValidator.checkLearnset (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/team-validator.js:1867:11)
+    at TeamValidator.validateSet (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/team-validator.js:589:33)
+    at TeamValidator.baseValidateTeam (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/team-validator.js:269:60)
+    at TeamValidator.validateTeam (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/team-validator.js:217:15)
+    at QueryProcessManager._query (/Users/leifbryning/Documents/GitHub/DH/.server-dist/team-validator-async.js:51:57)
+    at process.<anonymous> (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:540:30)
+    at process.emit (node:events:514:28)
+    at process.emit (node:domain:488:12)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+Additional information:
+  formatid = gen8leif
+  team = Harmoth||leftovers|flattery|tackle||8,,,,,|||||,,,,,???]Rodiche-Wildwood||leftovers|warped|tackle||8,,,,,|||||,,,,,???]Teranim||leftovers|noability|earthquake||8,,,,,|||||,,,,,???
+
+
+TypeError: this.field.setPseudoWeather is not a function
+    at Battle.onDamagingHit (/Users/leifbryning/Documents/GitHub/DH/.data-dist/mods/bobolieffakemon/abilities.js:4374:32)
+    at Battle.runEvent (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:741:34)
+    at Battle.spreadMoveHit (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:850:9)
+    at Battle.hitStepMoveHitLoop (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:686:37)
+    at Battle.trySpreadMoveHit (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:361:28)
+    at Battle.useMoveInner (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:274:22)
+    at Battle.useMove (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:145:27)
+    at Battle.runMove (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:100:33)
+    at Battle.runAction (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:2572:9)
+    at Battle.go (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:2761:9)
+
+Additional information:
+  chunk = >p2 move 1
+  inputLog = 
+>start {"formatid":"gen8leif","seed":[8743,31983,37819,51407]}
+>player p1 {"name":"leifbryning","avatar":"2","team":"osho||sitrusberry|magician|liquidation,hiddenpowerrock||8,,,,,||,,30,,30,30|||,Rock,,]teranim||leftovers|powerlink|protect,sleeptalk,earthquake||8,,,,,|||||]Rodiche-Wildwood||leftovers|warped|protect,gigadrain||8,,,,,|||||","rating":0}
+>player p2 {"name":"boboleif49","avatar":"1","team":"osho||sitrusberry|magician|liquidation,hiddenpowerrock||8,,,,,||,,30,,30,30|||,Rock,,]teranim||leftovers|powerlink|protect,sleeptalk,earthquake||8,,,,,|||||","rating":0}
+>p1 team 3, 2, 1
+>p2 team 1, 2
+>p1 move gigadrain
+>p2 move liquidation
+  log = 
+|t:|1702347704
+|player|p1|leifbryning|2|
+|player|p2|boboleif49|1|
+|teamsize|p1|3
+|teamsize|p2|2
+|gametype|singles
+|gen|8
+|tier|[Gen 8] leif
+|clearpoke
+|poke|p1|osho, F|
+|poke|p1|teranim, M|
+|poke|p1|Rodiche-Wildwood, F|
+|poke|p2|osho, F|
+|poke|p2|teranim, M|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|OHKO Clause: OHKO moves are banned
+|teampreview
+|
+|t:|1702347713
+|start
+|switch|p1a: Rodiche-Wildwood|Rodiche-Wildwood, F|271/271
+|switch|p2a: osho|osho, F|277/277
+|-start|p2a: osho|typechange|Water|[silent]
+|-start|p1a: Rodiche-Wildwood|typechange|Normal/Grass|[silent]
+|turn|1
+|
+|t:|1702347725
+|move|p2a: osho|Liquidation|p1a: Rodiche-Wildwood
+|-resisted|p1a: Rodiche-Wildwood
+|-damage|p1a: Rodiche-Wildwood|229/271
+|-unboost|p1a: Rodiche-Wildwood|def|1
+
+
+TypeError: Cannot read properties of undefined (reading 'useMove')
+    at Battle.onDamagingHit (/Users/leifbryning/Documents/GitHub/DH/.data-dist/mods/bobolieffakemon/abilities.js:4374:34)
+    at Battle.runEvent (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:741:34)
+    at Battle.spreadMoveHit (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:850:9)
+    at Battle.hitStepMoveHitLoop (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:686:37)
+    at Battle.trySpreadMoveHit (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:361:28)
+    at Battle.useMoveInner (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:274:22)
+    at Battle.useMove (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:145:27)
+    at Battle.runMove (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:100:33)
+    at Battle.runAction (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:2572:9)
+    at Battle.go (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:2761:9)
+
+Additional information:
+  chunk = >p2 move 1
+  inputLog = 
+>start {"formatid":"gen8leif","seed":[6,48508,61348,47788]}
+>player p1 {"name":"leifbryning","avatar":"265","team":"osho||sitrusberry|magician|liquidation,hiddenpowerrock||8,,,,,||,,30,,30,30|||,Rock,,]teranim||leftovers|powerlink|protect,sleeptalk,earthquake||8,,,,,|||||","rating":0}
+>player p2 {"name":"boboleif49","avatar":"265","team":"osho||sitrusberry|magician|liquidation,hiddenpowerrock||8,,,,,||,,30,,30,30|||,Rock,,]teranim||leftovers|powerlink|protect,sleeptalk,earthquake||8,,,,,|||||]rodiche-wildwood||leftovers|warped|weatherball||8,,,,,|||||","rating":0}
+>p1 team 1, 2
+>p2 team 3, 2, 1
+>p1 move liquidation
+>p2 move weatherball
+  log = 
+|t:|1702348717
+|player|p1|leifbryning|265|
+|player|p2|boboleif49|265|
+|teamsize|p1|2
+|teamsize|p2|3
+|gametype|singles
+|gen|8
+|tier|[Gen 8] leif
+|clearpoke
+|poke|p1|osho, M|
+|poke|p1|teranim, M|
+|poke|p2|osho, F|
+|poke|p2|teranim, F|
+|poke|p2|rodiche-wildwood, F|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|OHKO Clause: OHKO moves are banned
+|teampreview
+|
+|t:|1702348724
+|start
+|switch|p1a: osho|osho, M|277/277
+|switch|p2a: rodiche-wildwood|rodiche-wildwood, F|271/271
+|-start|p1a: osho|typechange|Water|[silent]
+|-start|p2a: rodiche-wildwood|typechange|Normal/Grass|[silent]
+|turn|1
+|
+|t:|1702348735
+|move|p1a: osho|Liquidation|p2a: rodiche-wildwood
+|-resisted|p2a: rodiche-wildwood
+|-damage|p2a: rodiche-wildwood|228/271
+
+
+ReferenceError: pokemon is not defined
+    at Battle.onDamage (/Users/leifbryning/Documents/GitHub/DH/.data-dist/mods/bobolieffakemon/abilities.js:1406:3)
+    at Battle.runEvent (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:741:34)
+    at Battle.spreadDamage (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:1771:25)
+    at Battle.spreadMoveHit (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:814:17)
+    at Battle.hitStepMoveHitLoop (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:686:37)
+    at Battle.trySpreadMoveHit (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:361:28)
+    at Battle.useMoveInner (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:274:22)
+    at Battle.useMove (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:145:27)
+    at Battle.runMove (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:100:33)
+    at Battle.runAction (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:2572:9)
+
+Additional information:
+  chunk = >p2 move 2 2,move 1 2
+  inputLog = 
+>start {"formatid":"gen8doublesleif","seed":[33054,4335,18142,60373]}
+>player p1 {"name":"leifbryning","avatar":"169","team":"pichiri||sitrusberry|guanoboost|gigadrain,weatherball||8,,,,,|||||]Wooliba||lifeorb|pitcherarmor|hurricane,roost||8,,,,,|||||]Dustoph||assaultvest|sandstream|powergem,darkpulse,extremespeed||8,,,,,|||||","rating":0}
+>player p2 {"name":"boboleif49","avatar":"169","team":"pichiri||sitrusberry|guanoboost|gigadrain,weatherball||8,,,,,|||||]Wooliba||lifeorb|pitcherarmor|hurricane,roost||8,,,,,|||||]Trybas||leftovers|drought|heatwave||8,,,,,|||||","rating":0}
+>p1 team 1, 3, 2
+>p2 team 1, 2, 3
+>p1 switch 3, move extremespeed +1
+>p2 move weatherball +2, move hurricane +2
+  log = 
+|t:|1702354817
+|player|p1|leifbryning|169|
+|player|p2|boboleif49|169|
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|doubles
+|gen|8
+|tier|[Gen 8] doubles leif
+|clearpoke
+|poke|p1|pichiri, F|
+|poke|p1|Wooliba, F|
+|poke|p1|Dustoph, F|
+|poke|p2|pichiri, M|
+|poke|p2|Wooliba, F|
+|poke|p2|Trybas, F|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|OHKO Clause: OHKO moves are banned
+|teampreview
+|
+|t:|1702354832
+|start
+|switch|p1a: pichiri|pichiri, F|293/293
+|switch|p1b: Dustoph|Dustoph, F|283/283
+|switch|p2a: pichiri|pichiri, M|293/293
+|switch|p2b: Wooliba|Wooliba, F|263/263
+|-start|p2b: Wooliba|typechange|Normal/Flying|[silent]
+|-start|p1b: Dustoph|typechange|Rock/Dark|[silent]
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Dustoph
+|-start|p1a: pichiri|typechange|Grass|[silent]
+|-start|p2a: pichiri|typechange|Grass|[silent]
+|turn|1
+|
+|t:|1702354923
+|switch|p1a: Wooliba|Wooliba, F|263/263
+|-start|p1a: Wooliba|typechange|Normal/Flying|[silent]
+|move|p1b: Dustoph|Extreme Speed|p2a: pichiri
+
+
+ReferenceError: pokemon is not defined
+    at Battle.onDamage (/Users/leifbryning/Documents/GitHub/DH/.data-dist/mods/bobolieffakemon/abilities.js:1406:3)
+    at Battle.runEvent (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:741:34)
+    at Battle.spreadDamage (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:1771:25)
+    at Battle.spreadMoveHit (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:814:17)
+    at Battle.hitStepMoveHitLoop (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:686:37)
+    at Battle.trySpreadMoveHit (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:361:28)
+    at Battle.useMoveInner (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:274:22)
+    at Battle.useMove (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:145:27)
+    at Battle.runMove (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:100:33)
+    at Battle.runAction (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:2572:9)
+
+Additional information:
+  chunk = >p2 move 1 1,move 1
+  inputLog = 
+>start {"formatid":"gen8doublesleif","seed":[52719,14312,47816,28866]}
+>player p1 {"name":"leifbryning","avatar":"266","team":"pichiri||sitrusberry|guanoboost|gigadrain,weatherball||8,,,,,|||||]Wooliba||lifeorb|pitcherarmor|hurricane,roost||8,,,,,|||||]Trybas||leftovers|drought|heatwave||8,,,,,|||||","rating":0}
+>player p2 {"name":"boboleif49","avatar":"101","team":"pichiri||sitrusberry|guanoboost|gigadrain,weatherball||8,,,,,|||||]Wooliba||lifeorb|pitcherarmor|hurricane,roost||8,,,,,|||||]Trybas||leftovers|drought|heatwave||8,,,,,|||||","rating":0}
+>p1 team 2, 1, 3
+>p2 team 2, 3, 1
+>p1 move hurricane +1, move gigadrain +2
+>p2 move hurricane +1, move heatwave
+  log = 
+|t:|1702355138
+|player|p1|leifbryning|266|
+|player|p2|boboleif49|101|
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|doubles
+|gen|8
+|tier|[Gen 8] doubles leif
+|clearpoke
+|poke|p1|pichiri, F|
+|poke|p1|Wooliba, M|
+|poke|p1|Trybas, M|
+|poke|p2|pichiri, M|
+|poke|p2|Wooliba, M|
+|poke|p2|Trybas, M|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|OHKO Clause: OHKO moves are banned
+|teampreview
+|
+|t:|1702355148
+|start
+|switch|p1a: Wooliba|Wooliba, M|263/263
+|switch|p1b: pichiri|pichiri, F|293/293
+|switch|p2a: Wooliba|Wooliba, M|263/263
+|switch|p2b: Trybas|Trybas, M|303/303
+|-start|p2b: Trybas|typechange|Fire/Flying|[silent]
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Trybas
+|-start|p1a: Wooliba|typechange|Normal/Flying|[silent]
+|-start|p2a: Wooliba|typechange|Normal/Flying|[silent]
+|-start|p1b: pichiri|typechange|Grass|[silent]
+|turn|1
+|
+|t:|1702355219
+|move|p2b: Trybas|Heat Wave|p1a: Wooliba
+|-supereffective|p1b: pichiri
+|-damage|p1a: Wooliba|37/263
+
+
+ReferenceError: pokemon is not defined
+    at Battle.onDamage (/Users/leifbryning/Documents/GitHub/DH/.data-dist/mods/bobolieffakemon/abilities.js:1406:3)
+    at Battle.runEvent (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:741:34)
+    at Battle.spreadDamage (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:1771:25)
+    at Battle.spreadMoveHit (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:814:17)
+    at Battle.hitStepMoveHitLoop (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:686:37)
+    at Battle.trySpreadMoveHit (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:361:28)
+    at Battle.useMoveInner (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:274:22)
+    at Battle.useMove (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:145:27)
+    at Battle.runMove (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:100:33)
+    at Battle.runAction (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:2572:9)
+
+Additional information:
+  chunk = >p2 move 1 2,move 2
+  inputLog = 
+>start {"formatid":"gen8doublesleif","seed":[51021,41190,23094,30281]}
+>player p1 {"name":"leifbryning","avatar":"101","team":"pichiri||sitrusberry|guanoboost|gigadrain,weatherball||8,,,,,|||||]Wooliba||lifeorb|pitcherarmor|hurricane,roost||8,,,,,|||||]Trybas||leftovers|drought|heatwave,substitute||8,,,,,||,0,,,,|||","rating":0}
+>player p2 {"name":"boboleif49","avatar":"266","team":"pichiri||sitrusberry|guanoboost|gigadrain,weatherball||8,,,,,|||||]Wooliba||lifeorb|pitcherarmor|hurricane,roost||8,,,,,|||||]Trybas||leftovers|drought|heatwave,calmmind||8,,,,,|||||","rating":0}
+>p1 team 1, 3, 2
+>p2 team 1, 2, 3
+>p1 move gigadrain +1, move substitute
+>p2 move gigadrain +2, move roost
+  log = 
+|t:|1702355521
+|player|p1|leifbryning|101|
+|player|p2|boboleif49|266|
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|doubles
+|gen|8
+|tier|[Gen 8] doubles leif
+|clearpoke
+|poke|p1|pichiri, M|
+|poke|p1|Wooliba, M|
+|poke|p1|Trybas, F|
+|poke|p2|pichiri, F|
+|poke|p2|Wooliba, M|
+|poke|p2|Trybas, M|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|OHKO Clause: OHKO moves are banned
+|teampreview
+|
+|t:|1702355540
+|start
+|switch|p1a: pichiri|pichiri, M|293/293
+|switch|p1b: Trybas|Trybas, F|303/303
+|switch|p2a: pichiri|pichiri, F|293/293
+|switch|p2b: Wooliba|Wooliba, M|263/263
+|-start|p1b: Trybas|typechange|Fire/Flying|[silent]
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Trybas
+|-start|p2b: Wooliba|typechange|Normal/Flying|[silent]
+|-start|p1a: pichiri|typechange|Grass|[silent]
+|-start|p2a: pichiri|typechange|Grass|[silent]
+|turn|1
+|
+|t:|1702355572
+|move|p1b: Trybas|Substitute|p1b: Trybas
+|-start|p1b: Trybas|Substitute
+|-damage|p1b: Trybas|228/303
+|move|p2b: Wooliba|Roost||[still]
+|-fail|p2b: Wooliba|heal
+|move|p2a: pichiri|Giga Drain|p1b: Trybas
+|-resisted|p1b: Trybas
+|-activate|p1b: Trybas|move: Substitute|[damage]
+|move|p1a: pichiri|Giga Drain|p2a: pichiri
+|-resisted|p2a: pichiri
+
+
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:447:12)
+    at _write (node:internal/streams/writable:389:10)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at [_writeToOutput] [as _writeToOutput] (node:internal/readline/interface:436:19)
+    at REPLServer.prompt (node:internal/readline/interface:391:27)
+    at REPLServer.displayPrompt (node:repl:1198:8)
+
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:447:12)
+    at _write (node:internal/streams/writable:389:10)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at [_writeToOutput] [as _writeToOutput] (node:internal/readline/interface:436:19)
+    at REPLServer.prompt (node:internal/readline/interface:391:27)
+    at REPLServer.displayPrompt (node:repl:1198:8)
+
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:447:12)
+    at _write (node:internal/streams/writable:389:10)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at [_writeToOutput] [as _writeToOutput] (node:internal/readline/interface:436:19)
+    at REPLServer.prompt (node:internal/readline/interface:391:27)
+    at REPLServer.displayPrompt (node:repl:1198:8)
+
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:447:12)
+    at _write (node:internal/streams/writable:389:10)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at [_writeToOutput] [as _writeToOutput] (node:internal/readline/interface:436:19)
+    at REPLServer.prompt (node:internal/readline/interface:391:27)
+    at REPLServer.displayPrompt (node:repl:1198:8)
+
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:447:12)
+    at _write (node:internal/streams/writable:389:10)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at [_writeToOutput] [as _writeToOutput] (node:internal/readline/interface:436:19)
+    at REPLServer.prompt (node:internal/readline/interface:391:27)
+    at REPLServer.displayPrompt (node:repl:1198:8)
+
+@!!@["Error","write EPIPE","A simulator process",null]
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:447:12)
+    at _write (node:internal/streams/writable:389:10)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at [_writeToOutput] [as _writeToOutput] (node:internal/readline/interface:436:19)
+    at REPLServer.prompt (node:internal/readline/interface:391:27)
+    at REPLServer.displayPrompt (node:repl:1198:8)
+
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:447:12)
+    at _write (node:internal/streams/writable:389:10)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at [_writeToOutput] [as _writeToOutput] (node:internal/readline/interface:436:19)
+    at REPLServer.prompt (node:internal/readline/interface:391:27)
+    at REPLServer.displayPrompt (node:repl:1198:8)
+
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:447:12)
+    at _write (node:internal/streams/writable:389:10)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at [_writeToOutput] [as _writeToOutput] (node:internal/readline/interface:436:19)
+    at REPLServer.prompt (node:internal/readline/interface:391:27)
+    at REPLServer.displayPrompt (node:repl:1198:8)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at new NodeError (node:internal/errors:406:5)
+    at target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:178:16)
+    at QueryProcessWrapper.release (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:423:16)
+    at ChildProcess.<anonymous> (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:470:48)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at new NodeError (node:internal/errors:406:5)
+    at target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:178:16)
+    at QueryProcessWrapper.release (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:423:16)
+    at ChildProcess.<anonymous> (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:470:48)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: bind EADDRINUSE 0.0.0.0:8000
+    at listenOnPrimaryHandle (node:net:1940:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:526:35)
+    at process.emit (node:domain:488:12)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:447:12)
+    at _write (node:internal/streams/writable:389:10)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at [_writeToOutput] [as _writeToOutput] (node:internal/readline/interface:436:19)
+    at REPLServer.prompt (node:internal/readline/interface:391:27)
+    at REPLServer.displayPrompt (node:repl:1198:8)
+
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:447:12)
+    at _write (node:internal/streams/writable:389:10)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at [_writeToOutput] [as _writeToOutput] (node:internal/readline/interface:436:19)
+    at REPLServer.prompt (node:internal/readline/interface:391:27)
+    at REPLServer.displayPrompt (node:repl:1198:8)
+
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:447:12)
+    at _write (node:internal/streams/writable:389:10)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at [_writeToOutput] [as _writeToOutput] (node:internal/readline/interface:436:19)
+    at REPLServer.prompt (node:internal/readline/interface:391:27)
+    at REPLServer.displayPrompt (node:repl:1198:8)
+
+@!!@["Error","write EPIPE","A simulator process",null]
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:447:12)
+    at _write (node:internal/streams/writable:389:10)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at [_writeToOutput] [as _writeToOutput] (node:internal/readline/interface:436:19)
+    at REPLServer.prompt (node:internal/readline/interface:391:27)
+    at REPLServer.displayPrompt (node:repl:1198:8)
+
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:447:12)
+    at _write (node:internal/streams/writable:389:10)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at [_writeToOutput] [as _writeToOutput] (node:internal/readline/interface:436:19)
+    at REPLServer.prompt (node:internal/readline/interface:391:27)
+    at REPLServer.displayPrompt (node:repl:1198:8)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at new NodeError (node:internal/errors:406:5)
+    at target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:178:16)
+    at QueryProcessWrapper.release (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:423:16)
+    at ChildProcess.<anonymous> (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:470:48)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:447:12)
+    at _write (node:internal/streams/writable:389:10)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at [_writeToOutput] [as _writeToOutput] (node:internal/readline/interface:436:19)
+    at REPLServer.prompt (node:internal/readline/interface:391:27)
+    at REPLServer.displayPrompt (node:repl:1198:8)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at new NodeError (node:internal/errors:406:5)
+    at target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:178:16)
+    at QueryProcessWrapper.release (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:423:16)
+    at ChildProcess.<anonymous> (/Users/leifbryning/Documents/GitHub/DH/.lib-dist/process-manager.js:470:48)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:447:12)
+    at _write (node:internal/streams/writable:389:10)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at [_writeToOutput] [as _writeToOutput] (node:internal/readline/interface:436:19)
+    at REPLServer.prompt (node:internal/readline/interface:391:27)
+    at REPLServer.displayPrompt (node:repl:1198:8)
+
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:447:12)
+    at _write (node:internal/streams/writable:389:10)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at [_writeToOutput] [as _writeToOutput] (node:internal/readline/interface:436:19)
+    at REPLServer.prompt (node:internal/readline/interface:391:27)
+    at REPLServer.displayPrompt (node:repl:1198:8)
+
+Error: bind EADDRINUSE 0.0.0.0:8000
+    at listenOnPrimaryHandle (node:net:1940:18)
+    at rr (node:internal/cluster/child:163:12)
+    at Worker.<anonymous> (node:internal/cluster/child:113:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:526:35)
+    at process.emit (node:domain:488:12)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+ReferenceError: pokemon is not defined
+    at Battle.onDamage (/Users/leifbryning/Documents/GitHub/DH/.data-dist/mods/bobolieffakemon/abilities.js:1406:3)
+    at Battle.runEvent (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:741:34)
+    at Battle.spreadDamage (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:1771:25)
+    at Battle.spreadMoveHit (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:814:17)
+    at Battle.hitStepMoveHitLoop (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:686:37)
+    at Battle.trySpreadMoveHit (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:361:28)
+    at Battle.useMoveInner (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:274:22)
+    at Battle.useMove (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:145:27)
+    at Battle.runMove (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:100:33)
+    at Battle.runAction (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:2572:9)
+
+Additional information:
+  chunk = >p2 move 1
+  inputLog = 
+>start {"formatid":"gen8leif","seed":[8458,11679,35616,371]}
+>player p1 {"name":"leifbryning","avatar":"266","team":"pichiri||sitrusberry|guanoboost|gigadrain,weatherball||8,,,,,|||||]Wooliba||lifeorb|pitcherarmor|hurricane,roost||8,,,,,|||||]Trybas||leftovers|drought|heatwave,substitute||8,,,,,||,0,,,,|||","rating":0}
+>player p2 {"name":"boboleif49","avatar":"102","team":"pichiri||sitrusberry|guanoboost|gigadrain,weatherball||8,,,,,|||||]Wooliba||lifeorb|pitcherarmor|hurricane,roost||8,,,,,|||||]Trybas||leftovers|drought|heatwave,substitute||8,,,,,||,0,,,,|||]Themon||shellbell|preservation|darkpulse||8,,,,,|N|,0,,,,|||","rating":0}
+>p1 team 1, 2, 3
+>p2 team 4, 2, 3, 1
+>p1 move weatherball
+>p2 move darkpulse
+  log = 
+|t:|1702705398
+|player|p1|leifbryning|266|
+|player|p2|boboleif49|102|
+|teamsize|p1|3
+|teamsize|p2|4
+|gametype|singles
+|gen|8
+|tier|[Gen 8] leif
+|clearpoke
+|poke|p1|pichiri, F|
+|poke|p1|Wooliba, M|
+|poke|p1|Trybas, M|
+|poke|p2|pichiri, M|
+|poke|p2|Wooliba, M|
+|poke|p2|Trybas, F|
+|poke|p2|Themon|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|OHKO Clause: OHKO moves are banned
+|teampreview
+|
+|t:|1702705436
+|start
+|switch|p1a: pichiri|pichiri, F|293/293
+|switch|p2a: Themon|Themon|253/253
+|-start|p2a: Themon|typechange|Dark|[silent]
+|-start|p1a: pichiri|typechange|Grass|[silent]
+|turn|1
+|
+|t:|1702705449
+|move|p2a: Themon|Dark Pulse|p1a: pichiri
+
+
+TypeError: Cannot read properties of undefined (reading 'useMove')
+    at Battle.onDamagingHit (/Users/leifbryning/Documents/GitHub/DH/.data-dist/mods/bobolieffakemon/abilities.js:4374:34)
+    at Battle.runEvent (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:741:34)
+    at Battle.spreadMoveHit (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:850:9)
+    at Battle.hitStepMoveHitLoop (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:686:37)
+    at Battle.trySpreadMoveHit (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:361:28)
+    at Battle.useMoveInner (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:274:22)
+    at Battle.useMove (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:145:27)
+    at Battle.runMove (/Users/leifbryning/Documents/GitHub/DH/.data-dist/scripts.js:100:33)
+    at Battle.runAction (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:2572:9)
+    at Battle.go (/Users/leifbryning/Documents/GitHub/DH/.sim-dist/battle.js:2761:9)
+
+Additional information:
+  chunk = >p2 move 1
+  inputLog = 
+>start {"formatid":"gen8leif","seed":[8166,38362,26812,5487]}
+>player p1 {"name":"leifbryning","avatar":"102","team":"Furnostrich|||flamebody|blazekick||1,1,1,1,1,252|||||","rating":0}
+>player p2 {"name":"boboleif","avatar":"170","team":"Rodiche-Wildwood|||warped|gigadrain||252,4,252,,,|F|,0,,,,|||","rating":0}
+>p1 team 1
+>p2 team 1
+>p1 move blazekick
+>p2 move gigadrain
+  log = 
+|t:|1715315278
+|player|p1|leifbryning|102|
+|player|p2|boboleif|170|
+|teamsize|p1|1
+|teamsize|p2|1
+|gametype|singles
+|gen|8
+|tier|[Gen 8] leif
+|clearpoke
+|poke|p1|Furnostrich, M|
+|poke|p2|Rodiche-Wildwood, F|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|OHKO Clause: OHKO moves are banned
+|teampreview
+|
+|t:|1715315286
+|start
+|switch|p1a: Furnostrich|Furnostrich, M|301/301
+|switch|p2a: Rodiche-Wildwood|Rodiche-Wildwood, F|332/332
+|-start|p1a: Furnostrich|typechange|Fire/Steel|[silent]
+|-start|p2a: Rodiche-Wildwood|typechange|Normal/Grass|[silent]
+|turn|1
+|
+|t:|1715315295
+|move|p1a: Furnostrich|Blaze Kick|p2a: Rodiche-Wildwood
+|-supereffective|p2a: Rodiche-Wildwood
+|-damage|p2a: Rodiche-Wildwood|158/332
+

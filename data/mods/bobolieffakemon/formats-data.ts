@@ -235,4 +235,8 @@ teranim: {
     tier: "leif",
     doublesTier: "leif",
 },
+osho: {
+    tier: "leif",
+    doublesTier: "leif",
+},
 };
